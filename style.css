@@ -1,0 +1,447 @@
+/* fundo */
+body {
+    margin: 0;
+    font-family: 'Noto Serif Display', serif;
+    background: url(imagens/fundo6.jpg)center/cover fixed no-repeat;
+}
+
+#fundo {
+    background: url(imagens/Vecteezy_Watercolor-Background_ZM0321_generated.jpg)center/cover;
+    border-radius: 50px;
+
+    width: 960px;
+    height: 600px;
+
+    margin-top: 50px;
+    margin-left: 80px;
+
+    line-height: 30px;
+}
+
+/* ====================cabeçalho============ */
+.opcao {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+
+}
+
+.link {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.link :active {
+    cursor: help;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.opcao a:hover {
+    color: sandybrown;
+    transition: 0.50s;
+}
+
+#det {
+    display: inline-block;
+
+}
+
+#logo {
+    position: fixed;
+    left: 80px;
+    top: 5px;
+}
+
+#logo h1 {
+    font-size: medium;
+    display: inline-block;
+
+    padding: 0;
+    margin: 0;
+}
+
+#logo h2 {
+    font-size: small;
+    display: inline-block;
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*=================== conteudo ===============*/
+
+#i1 {
+    float: left;
+
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+}
+
+#i2 {
+    float: left;
+
+    position: relative;
+    bottom: -20px;
+    left: -70px;
+}
+
+
+#eu {
+    width: 250px;
+    height: 290px;
+
+    border-radius: 50%;
+
+    border: outset white 5px;
+
+    padding: 30px;
+    margin: 35px;
+}
+
+#borda2 {
+    width: 200px;
+
+    border-radius: 50%;
+
+    position: relative;
+    left: 800px;
+    top: 40px;
+}
+
+.text {
+    position: relative;
+    left: 100px;
+    top: 120px;
+
+    height: 10px;
+}
+
+.text p {
+    margin: 0;
+    padding: 0;
+
+    font-size: 20px;
+}
+
+.text h2 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 40px;
+}
+
+.text h3 {
+    margin: 0;
+    padding: 0;
+
+    font-size: 25px;
+}
+
+#pessoal {
+    position: relative;
+    left: 190px;
+    top: 100px;
+
+    height: 10px;
+    width: 600px;
+
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#pessoal ul {
+    margin: 0;
+    padding: 20px;
+}
+
+.hora {
+    width: 60px;
+    height: 60px;
+
+    padding: 40px;
+    padding-left: 20px;
+    padding-right: 60px;
+
+    position: relative;
+    left: 960px;
+    top: 100px;
+
+    border: double yellow 4px;
+    border-radius: 50%;
+
+    font-size: 20px;
+    text-align: center;
+}
+
+#hr {
+    display: block;
+}
+
+.proj {
+    width: 60px;
+    height: 60px;
+
+    padding: 40px;
+    padding-left: 20px;
+    padding-right: 60px;
+
+    position: relative;
+    left: 1100px;
+    top: 100px;
+
+    border: double yellow 4px;
+    border-radius: 50%;
+
+    font-size: 18px;
+    text-align: center;
+}
+
+.titulo {
+    color: rgb(92, 87, 87);
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+#hab {
+    position: relative;
+    left: 190px;
+    top: 100px;
+
+    height: 10px;
+    width: 600px;
+
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#hab img {
+    border: solid white 15px;
+}
+
+#img1 {
+    display: inline-block;
+    position: relative;
+    right: 15px;
+}
+
+#img2 {
+    display: inline-block;
+    position: relative;
+    top: -50px;
+    left: 600px;
+}
+
+#img3 {
+    display: inline-block;
+    position: relative;
+    top: -100px;
+    right: 15px;
+}
+
+#img4 {
+    display: inline-block;
+    position: relative;
+    top: -200px;
+    left: 600px;
+}
+
+#img5 {
+    display: inline-block;
+    position: relative;
+    top: -300px;
+    right: 2px;
+}
+
+#img6 {
+    display: inline-block;
+    position: relative;
+    top: -400px;
+    left: 600px;
+}
+
+/* ========================links========================== */
+
+footer {
+    width: 100%;
+    height: 200px;
+    background: url(imagens/Vecteezy_Watercolor-Background_ZM0321_generated.jpg);
+}
+
+
+/* botao */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: help;
+    margin: 5px;
+}
+
+.button a {
+    color: white;
+}
+
+.button span {
+    cursor: help;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -3px;
+    right: -20px;
+    transition: 0.5s;
+    font-size: 20px;
+    cursor: help;
+}
+
+.button:hover span {
+    padding-right: 20px;
+
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* =========bnt 2========= */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: help;
+    margin: 5px;
+
+    position: relative;
+    top: 20px;
+
+}
+
+.button a {
+    color: white;
+}
+
+.button span {
+    cursor: help;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -3px;
+    right: -20px;
+    transition: 0.5s;
+    font-size: 20px;
+    cursor: help;
+}
+
+.button:hover span {
+    padding-right: 20px;
+
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*============== bnt3 ==========================*/
+.button3 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: help;
+    margin: 5px;
+
+    position: relative;
+    right: 79px;
+    top: 30px;
+}
+
+.button3 a {
+    color: white;
+}
+
+.button3 span {
+    cursor: help;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: -3px;
+    right: -20px;
+    transition: 0.5s;
+    font-size: 20px;
+    cursor: help;
+}
+
+.button3:hover span {
+    padding-right: 20px;
+
+}
+
+.button3:hover span:after {
+    opacity: 1;
+    right: 0;
+
+}
+
+.button3:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
