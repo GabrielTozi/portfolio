@@ -1,12 +1,12 @@
 /* fundo */
 body {
     margin: 0;
-    font-family: 'Noto Serif Display', serif;
-    background: url(imagens/fundo6.jpg)center/cover fixed no-repeat;
+    font-family: 'Noto Serif Display';
+    background: url(imagens/fundo.jpg)center/cover fixed no-repeat;
 }
 
 #fundo {
-    background: url(imagens/Vecteezy_Watercolor-Background_ZM0321_generated.jpg)center/cover;
+    background: url(imagens/fundoP.jpg)center/cover;
     border-radius: 50px;
 
     width: 960px;
@@ -19,33 +19,7 @@ body {
 }
 
 /* ====================cabeçalho============ */
-.opcao {
-    position: fixed;
-    top: 25px;
-    right: 25px;
 
-}
-
-.link {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-.link :active {
-    cursor: help;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-
-}
-
-.opcao a:hover {
-    color: sandybrown;
-    transition: 0.50s;
-}
 
 #det {
     display: inline-block;
@@ -55,7 +29,9 @@ a {
 #logo {
     position: fixed;
     left: 80px;
-    top: 5px;
+    top: 8px;
+
+    line-height: 15px;
 }
 
 #logo h1 {
@@ -78,33 +54,17 @@ a {
 
 /*=================== conteudo ===============*/
 
-#i1 {
-    float: left;
-
-    position: relative;
-    bottom: 10px;
-    left: 20px;
-}
-
-#i2 {
-    float: left;
-
-    position: relative;
-    bottom: -20px;
-    left: -70px;
-}
-
-
 #eu {
     width: 250px;
-    height: 290px;
+    height: 280px;
 
-    border-radius: 50%;
+    border-radius: 50px;
 
-    border: outset white 5px;
+    border: solid white 5px;
 
-    padding: 30px;
     margin: 35px;
+    margin-top: 90px;
+    margin-bottom: 60px;
 }
 
 #borda2 {
@@ -164,9 +124,9 @@ a {
     padding: 20px;
 }
 
-.hora {
+.sobreMod1 {
     width: 60px;
-    height: 60px;
+    height: 50px;
 
     padding: 40px;
     padding-left: 20px;
@@ -176,40 +136,59 @@ a {
     left: 960px;
     top: 100px;
 
-    border: double yellow 4px;
+    border: double black 4px;
     border-radius: 50%;
 
     font-size: 20px;
     text-align: center;
 }
 
-#hr {
+.hide {
+    display: none;
+    text-decoration: underline;
+}
+
+.sobreMod1:hover .hide {
     display: block;
 }
 
-.proj {
+.sobreMod1:hover {
+    border: double yellow 4px;
+    transition: 0.20s;
+}
+
+.sobreMod2 {
     width: 60px;
-    height: 60px;
+    height: 50px;
 
     padding: 40px;
     padding-left: 20px;
-    padding-right: 60px;
+    padding-right: 50px;
 
     position: relative;
     left: 1100px;
     top: 100px;
 
-    border: double yellow 4px;
+    border: double black 4px;
     border-radius: 50%;
 
     font-size: 18px;
     text-align: center;
 }
 
+.sobreMod2:hover .hide {
+    display: block;
+}
+
+.sobreMod2:hover {
+    border: double yellow 4px;
+    transition: 0.20s;
+}
+
 .titulo {
     color: rgb(92, 87, 87);
     font-size: 40px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 #hab {
@@ -231,55 +210,184 @@ a {
 
 #img1 {
     display: inline-block;
-    position: relative;
-    right: 15px;
+    position: absolute;
+    transform: translate(-30px, 35px);
 }
 
 #img2 {
     display: inline-block;
-    position: relative;
-    top: -50px;
-    left: 600px;
+    position: absolute;
+
+    transform: translate(590px, 300px);
+
 }
 
 #img3 {
     display: inline-block;
-    position: relative;
-    top: -100px;
-    right: 15px;
+    position: absolute;
+    transform: translate(-30px, 600px);
+
 }
 
 #img4 {
     display: inline-block;
-    position: relative;
-    top: -200px;
-    left: 600px;
+    position: absolute;
+
+    transform: translate(590px, 860px);
 }
 
 #img5 {
     display: inline-block;
-    position: relative;
-    top: -300px;
-    right: 2px;
+    position: absolute;
+
+    transform: translate(-5px, 1160px);
 }
 
 #img6 {
     display: inline-block;
-    position: relative;
-    top: -400px;
-    left: 600px;
+    position: absolute;
+
+    transform: translate(590px, 1460px);
 }
 
+/* ====================softwares========================== */
+/* #limite {
+    width: 600px;
+    margin-left: 190px;
+    margin-top: -200px;
+}
+
+.form {
+    width: 200px;
+    height: 250px;
+
+    background: white;
+
+    margin-left: 100px;
+    margin-top: 60px;
+
+    border: solid black 2px;
+
+    display: inline-block;
+
+    text-align: center;
+}
+
+.formContent {
+    width: 100px;
+    height: 120px;
+
+    border: solid black 2px;
+    background: white;
+
+    padding-top: 15px;
+    margin: auto;
+
+    transform: translatey(10%);
+
+}
+
+#js {
+    position: absolute;
+    left: 90px;
+
+    transition-duration: 0.5s;
+}
+
+#js:hover {
+    background-color: rgb(238, 175, 75);
+    transition: 0.50s;
+}
+
+#js:hover .hide {
+    display: block;
+    color: white;
+}
+
+#css {
+    position: absolute;
+    left: 390px;
+
+    transition-duration: 0.5s;
+}
+
+#css:hover {
+    background: rgb(0, 150, 230);
+    transition: 0.50s;
+}
+
+#css:hover .hide {
+    display: block;
+    color: white;
+}
+
+#html {
+    position: absolute;
+    left: 690px;
+
+    transition-duration: 0.5s;
+}
+
+#html:hover {
+    background: rgb(236, 102, 48);
+    transition: 0.50s;
+}
+
+#html:hover .hide {
+    display: block;
+    color: white;
+}
+
+
+#ps{
+    position: relative;
+    top: 300px;
+    left: 220px;
+}
+
+#cd{
+    position: relative;
+    top: 300px;
+    left: 230px;
+} */
 /* ========================links========================== */
 
 footer {
     width: 100%;
     height: 200px;
-    background: url(imagens/Vecteezy_Watercolor-Background_ZM0321_generated.jpg);
+    background: url(imagens/fundoP.jpg);
+}
+
+.opcao {
+    position: fixed;
+    top: 21px;
+    right: 25px;
+
+}
+
+.link {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
-/* botao */
+.link :active {
+    cursor: help;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.opcao a:hover {
+    color: rgb(204, 141, 86);
+    transition: 0.50s;
+}
+
+
+/*=================== botao====================== */
 .button {
     display: inline-block;
     border-radius: 4px;
@@ -289,10 +397,12 @@ footer {
     text-align: center;
     font-size: 15px;
     padding: 10px;
-    width: 100px;
+    width: 150px;
     transition: all 0.5s;
-    cursor: help;
     margin: 5px;
+
+    position: relative;
+    top: 90px;
 }
 
 .button a {
@@ -300,7 +410,6 @@ footer {
 }
 
 .button span {
-    cursor: help;
     display: inline-block;
     position: relative;
     transition: 0.5s;
@@ -314,7 +423,6 @@ footer {
     right: -20px;
     transition: 0.5s;
     font-size: 20px;
-    cursor: help;
 }
 
 .button:hover span {
@@ -330,118 +438,38 @@ footer {
 
 .button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* =========bnt 2========= */
-.button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: black;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 15px;
-    padding: 10px;
-    width: 130px;
-    transition: all 0.5s;
-    cursor: help;
-    margin: 5px;
-
-    position: relative;
-    top: 20px;
 
 }
 
-.button a {
-    color: white;
-}
-
-.button span {
-    cursor: help;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button span:after {
-    content: '\00bb';
+.bnt {
     position: absolute;
-    opacity: 0;
-    top: -3px;
-    right: -20px;
-    transition: 0.5s;
-    font-size: 20px;
-    cursor: help;
+
+    transition-duration: 0.5s;
 }
 
-.button:hover span {
-    padding-right: 20px;
-
+.button:hover+.bnt {
+    width: 70px;
 }
 
-.button:hover span:after {
-    opacity: 1;
-    right: 0;
+.email {
+    margin: 0;
+    padding: 0;
 
+    left: 335px;
 }
 
-.button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+.insta {
+    margin: 0;
+    padding: 0;
+    left: 500px;
 }
 
-/*============== bnt3 ==========================*/
-.button3 {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: black;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 15px;
-    padding: 10px;
-    width: 130px;
-    transition: all 0.5s;
-    cursor: help;
-    margin: 5px;
-
-    position: relative;
-    right: 79px;
-    top: 30px;
+.git {
+    margin: 0;
+    padding: 0;
+    left: 660px;
 }
 
-.button3 a {
-    color: white;
-}
-
-.button3 span {
-    cursor: help;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-
-.button3 span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: -3px;
-    right: -20px;
-    transition: 0.5s;
-    font-size: 20px;
-    cursor: help;
-}
-
-.button3:hover span {
-    padding-right: 20px;
-
-}
-
-.button3:hover span:after {
-    opacity: 1;
-    right: 0;
-
-}
-
-.button3:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+#contatos {
+    margin-left: 200px;
 }
